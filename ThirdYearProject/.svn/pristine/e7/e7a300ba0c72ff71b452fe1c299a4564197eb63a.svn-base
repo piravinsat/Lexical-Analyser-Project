@@ -1,0 +1,26 @@
+
+rdparser
+Generated on Mar 10 2014 22:43:02 and compiled on Mar 10 2014 at 22:43:02
+
+******: 
+     1: ab|(c)*
+alt
+ con
+  kle
+   reg
+    ab
+ |
+ con
+  kle
+   reg
+    (
+    alt
+     con
+      kle
+       reg
+        c
+    )
+   *
+******: 0 errors and 0 warnings
+******: 0.000 CPU seconds used
+

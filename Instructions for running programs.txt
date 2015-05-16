@@ -1,0 +1,23 @@
+Dfa Walker:
+
+javac dfa/DfaWalker.java
+
+then
+
+java dfa.DfaWalker
+
+Subset Construction:
+
+javac sub/SubsetConstruction.java
+
+then 
+
+java sub.SubsetConstruction
+
+Thompson's Construction:
+
+javac tho/ThompsonsConstruction.java
+
+then
+
+java tho.ThompsonsConstruction

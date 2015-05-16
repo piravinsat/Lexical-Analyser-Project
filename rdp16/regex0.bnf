@@ -1,0 +1,6 @@
+S ::= REG.
+REG ::=  ID | '#' | ALT | CON | KLE | BRT .
+ALT ::= REG '|' REG .
+CON ::= REG REG .
+KLE ::= REG '*' .
+BRT ::= '(' REG ')' . 

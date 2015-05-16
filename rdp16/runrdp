@@ -1,0 +1,3 @@
+#!/bin/bash
+make GRAMMAR=regex parser
+./rdparser -l -v regex.str

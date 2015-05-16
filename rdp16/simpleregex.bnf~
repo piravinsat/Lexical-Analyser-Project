@@ -1,0 +1,12 @@
+
+con ::= alt { alt } .
+
+alt ::= kle { '|' kle } .
+
+kle ::= sym {'*'} .
+
+sym ::= ID | '#'.
+
+(** '#' represents epilson **)
+(** simpleregex.bnf **)
+(** Doesn't allow brackets **)

@@ -1,0 +1,21 @@
+alt
+ con
+  kle
+   reg
+    (
+    alt
+     con
+      kle
+       reg
+        a
+      kle
+       reg
+        a
+     |
+     con
+      kle
+       reg
+        b
+    )
+   *
+   

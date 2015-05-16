@@ -1,0 +1,22 @@
+TREE
+alt ::= con [ '|' con ] .
+
+con ::= kle [ kle ] .
+
+kle ::= reg ['*'] .
+
+reg ::= ID | '#' | '(' alt ')' .
+
+(** '#' represents epilson **)
+(** regexV2.bnf **)
+(** Changed to follow operator priority **)
+
+GLOBAL([* void printTreeRec(rdp_tree_node_data *node, int level) {
+	for (int i = 0; i < level; i++) text_printf(" ");
+	text_printf("%s\n", node->id);
+	for (void *edge = graph_next_out_edge(node); edge != NULL;
+					edge = graph_next_out_edge(edge))
+		printTreeRec((rdp_tree_node_data*) graph_destination(edge), level+1);
+} *])
+
+POST_PARSE([* printTreeRec((rdp_tree_node_data*) graph_root(rdp_tree), 0); *])

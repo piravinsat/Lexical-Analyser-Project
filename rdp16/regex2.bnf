@@ -1,0 +1,11 @@
+reg ::=  ( ID | '#' ) [ <alt> | <con> | <kle>] .
+
+alt ::= '|' reg2  .
+
+con ::= reg2 .
+
+kle ::= '*' .
+
+reg2 ::= (ID | '#') [kle] .
+
+(**** regex2.bnf ****)

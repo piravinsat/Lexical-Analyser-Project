@@ -1,0 +1,9 @@
+reg ::= ID | '#' | con | alt | kle .
+
+con ::= reg reg .
+
+alt ::= reg '|' reg .
+
+kle ::= '(' reg ')' * .
+
+

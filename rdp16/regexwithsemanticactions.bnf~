@@ -1,0 +1,5 @@
+reg(val:char*) ::=  ( sym:val1 | '(' reg:val1 ')' ) [ <'|' reg:val2> | <reg:val2> | <'*'>]  .
+
+sym:char* ::= ID | '#' .
+
+(**** regex.bnf ****)

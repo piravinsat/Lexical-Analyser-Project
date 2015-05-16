@@ -1,0 +1,15 @@
+S ::= [lbrt] reg [rbrt] .
+
+reg ::= ( ID | '#' ) [ <alt> | <con> | <kle>] .
+
+alt ::= '|' reg  .
+
+con ::= reg .
+
+kle ::= '*' .
+
+lbrt ::= '(' .
+
+rbrt ::= ')' .
+
+(**** regex3.bnf ****)

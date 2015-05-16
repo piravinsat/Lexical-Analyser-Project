@@ -1,0 +1,46 @@
+graph:{
+orientation:top_to_bottom
+edge.arrowsize:7
+edge.thickness:1
+display_edge_labels:yes
+arrowmode:free
+node.borderwidth:1
+node:{title:"1"label:"alt" horizontal_order:1 shape:ellipse }
+edge:{sourcename:"1" targetname:"2" horizontal_order:999}
+node:{title:"2"label:"con" horizontal_order:2 shape:ellipse }
+edge:{sourcename:"2" targetname:"3" horizontal_order:998}
+node:{title:"3"label:"kle" horizontal_order:3 shape:ellipse }
+edge:{sourcename:"3" targetname:"4" horizontal_order:997}
+node:{title:"4"label:"reg" horizontal_order:4 shape:ellipse }
+edge:{sourcename:"4" targetname:"5" horizontal_order:996}
+edge:{sourcename:"4" targetname:"6" horizontal_order:995}
+edge:{sourcename:"4" targetname:"23" horizontal_order:994}
+node:{title:"23"label:"')'" horizontal_order:23}
+node:{title:"6"label:"alt" horizontal_order:6 shape:ellipse }
+edge:{sourcename:"6" targetname:"7" horizontal_order:993}
+edge:{sourcename:"6" targetname:"16" horizontal_order:992}
+edge:{sourcename:"6" targetname:"17" horizontal_order:991}
+node:{title:"17"label:"con" horizontal_order:17 shape:ellipse }
+edge:{sourcename:"17" targetname:"18" horizontal_order:990}
+node:{title:"18"label:"kle" horizontal_order:18 shape:ellipse }
+edge:{sourcename:"18" targetname:"19" horizontal_order:989}
+node:{title:"19"label:"reg" horizontal_order:19 shape:ellipse }
+edge:{sourcename:"19" targetname:"20" horizontal_order:988}
+node:{title:"20"label:"b" horizontal_order:20}
+node:{title:"16"label:"'|'" horizontal_order:16}
+node:{title:"7"label:"con" horizontal_order:7 shape:ellipse }
+edge:{sourcename:"7" targetname:"8" horizontal_order:987}
+edge:{sourcename:"7" targetname:"12" horizontal_order:986}
+node:{title:"12"label:"kle" horizontal_order:12 shape:ellipse }
+edge:{sourcename:"12" targetname:"13" horizontal_order:985}
+node:{title:"13"label:"reg" horizontal_order:13 shape:ellipse }
+edge:{sourcename:"13" targetname:"14" horizontal_order:984}
+node:{title:"14"label:"a" horizontal_order:14}
+node:{title:"8"label:"kle" horizontal_order:8 shape:ellipse }
+edge:{sourcename:"8" targetname:"9" horizontal_order:983}
+node:{title:"9"label:"reg" horizontal_order:9 shape:ellipse }
+edge:{sourcename:"9" targetname:"10" horizontal_order:982}
+node:{title:"10"label:"a" horizontal_order:10}
+node:{title:"5"label:"'('" horizontal_order:5}
+
+}
